@@ -127,7 +127,7 @@ func main() {
 	fmt.Println(name)
 	fmt.Println(name[0]) // golang
 
-	//name1[0] = "Todd" // 引发panic异常，index out of range [0] with length 0
+	//name1[0] = "golang" // 引发panic异常，index out of range [0] with length 0
 	name1 = append(name1, "golang") // [golang]
 	fmt.Println(name1)
 	fmt.Println(name1[0]) // golang
