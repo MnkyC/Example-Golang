@@ -13,20 +13,14 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	var a [5]int
 	fmt.Println("empty a:", a)
 	fmt.Println("empty len:", len(a))
 	fmt.Println(a[0], a[4])
 
-	var b []int
-	b = make([]int, 2)
-	fmt.Println("empty b:", b)
-	fmt.Println("empty len:", len(b))
-	fmt.Println(b[0], b[1])
-
-	c := [5]int{1, 2, 3, 4, 5}
-	fmt.Println("c:", c)
+	b := [5]int{1, 2, 3, 4, 5}
+	fmt.Println("b:", b)
 
 	a[4] = 100
 	fmt.Println("set:", a)
